@@ -1,0 +1,172 @@
+/*start general*/
+body
+{
+    height: 2000px;
+    box-sizing: border-box
+    
+}
+ul,li
+{
+    list-style-type: none
+}
+.clearfix
+{
+    clear: both
+}
+
+/*end general*/
+/*start css for our story page*/
+/*start left side*/
+.left-side
+{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../images/menu_background_03.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 99999
+}
+.left-side img
+{
+    max-height: 150px;
+    margin-left: 20px
+}
+.left-side ul
+{
+    margin-top: 100px
+}
+.left-side ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase
+}
+.fa-youtube:before,.fa-facebook-f:before,.fa-twitter:before
+{
+    color: white;
+    font-size: 20px;
+    padding-left: 15px
+}
+.fa-twitter:before
+{
+    margin-left: 20px
+}
+
+.left-side ul li a:hover
+{
+    color: #dadada
+}
+/*end left side*/
+/*start right side*/
+.right-side
+{
+    height: 100%;
+    width: 80%;
+    top: 0;
+    left: 20%;
+    position: relative
+}
+.right-side .one .col,
+.right-side .four .farm,
+.right-side .three .field,
+.right-side .two .row
+{
+    float: left;
+    width: 40%;
+    padding-top: 50px;
+    margin-left: 50px 
+}
+.right-side h1
+{
+    text-align: center;
+    color: #6c3f2d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 47px;
+    font-weight: 400
+}
+.right-side h4
+{
+    color: #818181;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif   
+}
+.right-side h5
+{
+    text-align: center;
+    color: #6c3f2d;
+    font-family:'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    width: 80%
+}
+.right-side p
+{
+    text-align: center;
+    color: #818181;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Raleway', sans-serif;
+    width: 80%
+}
+.right-side a
+{
+    text-align: center;
+    cursor: pointer;
+    color: #6c3f2d;
+    margin-left: 170px
+}
+.right-side .one img,
+.right-side .two img,
+.right-side .three img,
+.right-side .four img
+{
+    height:300px;
+    width: 450px
+}
+
+.right-side .one,
+.right-side .two,
+.right-side .three,
+.right-side .four
+{
+    height: 400px
+}
+.right-side .two,.right-side .four
+{
+    background-color: #f8f8f8
+}
+.right-side .five
+{
+    background-color:#6c3f2d;
+    margin-top: 0
+}
+.right-side .five article
+{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 44px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px
+    
+}
+.right-side .five img
+{
+    max-width: 120px;
+    margin-left: 45%
+}
+
+
+/*end right side*/
+/*end css for our story page*/

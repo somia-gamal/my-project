@@ -1,0 +1,186 @@
+/*start general*/
+body
+{
+    box-sizing: border-box
+    
+}
+ul,li
+{
+    list-style-type: none
+}
+.clearfix
+{
+    clear:both
+}
+
+/*end general*/
+/*start css for home page*/
+/*start left side*/
+.left-side
+{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image:url(../images/menu_background.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9999;
+}
+.left-side img
+{
+    max-height: 150px;
+    margin-left: 20px
+}
+.left-side ul
+{
+    margin-top: 100px
+}
+.left-side ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase
+}
+.left-side .fa-youtube:before,.left-side .fa-facebook-f:before,.left-side .fa-twitter:before
+{
+    color: white;
+    font-size: 20px;
+    padding-left: 15px
+}
+.left-side .hover-effect:before:hover {
+    color: red;
+}
+.fa-twitter:before
+{
+    margin-left: 20px
+}
+
+.left-side ul li a:hover
+{
+    color: #dadada
+}
+/*end left side*/
+/*start right side*/
+.right-side
+{
+    height: 100%;
+    width: 80%;
+    top: 0;
+    left: 20%;
+    position: relative
+}
+.right-side h1
+{
+    color:#6c3f2d;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500
+}
+.right-side .line
+{
+    background-color: #6c3f2d;
+    width: 100px;
+    height: 1px;
+    margin-top: 20px;
+    position: absolute;
+    left: 45%
+}
+.right-side .join .col
+{
+    float: left;
+    width: 30%;
+    margin-right: 16px
+}
+.right-side .join .col input[type="text"],input[type="email"]
+{
+    width:100%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 15px 12px;
+    border: 0;
+    outline: 0;
+    resize: none;
+    font-size: 13px;
+    line-height: 17px;
+    background-color:#f8f8f8 ;
+    color: #818181;
+    font-family: sans-serif;
+    font-weight: 400;
+    box-sizing: border-box
+}
+.right-side .join .col h4
+
+{
+    color: #6c3f2d;
+    font-size: 15px;
+    line-height: 1.571428571428571em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 33px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    padding-top: 50px
+}
+.right-side .join .col p
+{
+    font-size: 14px;
+    line-height: 26px;
+    color: #818181;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-weight: 300
+}
+.right-side .join textarea
+{
+    width:62%;
+    margin-bottom: 20px;
+    margin-left: 34%;
+    padding: 15px 12px;
+    border: 0;
+    outline: 0;
+    resize: none;
+    font-size: 15px;
+    line-height: 17px;
+    background-color:#f8f8f8 ;
+    color: #818181;
+    font-family: 'Raleway';
+    font-weight: 400;
+    box-sizing: border-box ;
+    margin-top: -30px;
+    height: 200px
+}
+.right-side .join .message button
+{
+    width: auto;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 23px;
+    border: 2px solid #6c3f2d;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 81%;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color:#6c3f2d 
+}
+.right-side .fa-twitter:before,.right-side .fa-facebook-f:before,.right-side .fa-google-plus-g:before,
+.right-side .fa-pinterest-p:before,.right-side .fa-tumblr:before,.right-side .fa-camera:before
+{
+    color: #bcbcbc;
+    font-size: 20px;
+    margin-right: 20px
+}
+/*end right side*/
+/*end css for home page*/
